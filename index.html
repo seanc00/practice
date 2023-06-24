@@ -15,12 +15,29 @@
     console.log(add7(12));
     */
 
+    /*
     // task 2 - Write a function called multiply that takes 2 numbers and returns their product.
     function multiply(x, y) {
         return x*y;
     }
 
     console.log(multiply(5,10));
+    */
+
+    // task 2 - Write a function called multiply that takes 2 numbers and returns their product.
+    function capitalize(stringInput) {
+        // version 1 - sets all upper case
+        // return stringInput.toUpperCase();
+
+        // version 2 - capitaizes first letter and only prints first letter
+        // return stringInput.charAt(0).toUpperCase();
+
+        // version 3 - using slice to complete the task
+        return stringInput.charAt(0).toUpperCase() + stringInput.slice(1);
+    }
+
+    console.log(capitalize("hello, i am a robot :)"))
+
 
   </script>
 </body>
